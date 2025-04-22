@@ -1,0 +1,4130 @@
+[
+  {
+    "model": "servers.server",
+    "pk": 100,
+    "fields": {
+      "name": "SVUAS00021",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "10.116.250.54",
+      "memory": 15,
+      "disk": 27,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 101,
+    "fields": {
+      "name": "SVUAS70003",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "193.135.205.105",
+      "memory": 1,
+      "disk": 10,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 102,
+    "fields": {
+      "name": "SVUAS00026",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.5.5.44",
+      "memory": 1,
+      "disk": 10,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 103,
+    "fields": {
+      "name": "SVUAS012",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.5.5.56",
+      "memory": 7,
+      "disk": 47,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 104,
+    "fields": {
+      "name": "SVPAS00020",
+      "domain": 3,
+      "network": 3,
+      "cpu": 16,
+      "primary_ip_address": "10.5.2.201",
+      "memory": 62,
+      "disk": 94,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 105,
+    "fields": {
+      "name": "SVUAS00041",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.116.251.125",
+      "memory": 11,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 106,
+    "fields": {
+      "name": "SVUAS00042",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.116.251.126",
+      "memory": 3,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 107,
+    "fields": {
+      "name": "SVUAS00045",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "10.116.251.138",
+      "memory": 15,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 108,
+    "fields": {
+      "name": "SVUAS00046",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "10.116.251.127",
+      "memory": 15,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 109,
+    "fields": {
+      "name": "SVUAF70036",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "193.135.205.101",
+      "memory": 11,
+      "disk": 11,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 110,
+    "fields": {
+      "name": "SVUAF70042",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "193.135.205.217",
+      "memory": 5,
+      "disk": 11,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 111,
+    "fields": {
+      "name": "SVUAF70043",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "193.135.205.218",
+      "memory": 5,
+      "disk": 11,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 112,
+    "fields": {
+      "name": "SVUAF70045",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "193.135.205.116",
+      "memory": 15,
+      "disk": 11,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 113,
+    "fields": {
+      "name": "SVUAF70046",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "193.135.205.219",
+      "memory": 11,
+      "disk": 11,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 114,
+    "fields": {
+      "name": "SVUAF70047",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "193.135.205.246",
+      "memory": 7,
+      "disk": 16,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 115,
+    "fields": {
+      "name": "SVUAF70048",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "193.135.205.247",
+      "memory": 7,
+      "disk": 16,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 116,
+    "fields": {
+      "name": "SVUAF70049",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "193.135.205.248",
+      "memory": 31,
+      "disk": 16,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 117,
+    "fields": {
+      "name": "SVUAF70050",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "193.135.205.249",
+      "memory": 11,
+      "disk": 16,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 118,
+    "fields": {
+      "name": "SVUAF90002",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "193.47.122.59",
+      "memory": 3,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 119,
+    "fields": {
+      "name": "SVUAF00053",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "10.116.251.191",
+      "memory": 7,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 120,
+    "fields": {
+      "name": "SVDHS00001",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.116.250.30",
+      "memory": 11,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 121,
+    "fields": {
+      "name": "SVUAF00054",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.116.251.85",
+      "memory": 31,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 122,
+    "fields": {
+      "name": "SVUAF00055",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.116.251.86",
+      "memory": 3,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 123,
+    "fields": {
+      "name": "SVUAF00057",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.116.181.40",
+      "memory": 15,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 124,
+    "fields": {
+      "name": "SVUAF00061",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "10.116.181.44",
+      "memory": 31,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 125,
+    "fields": {
+      "name": "SVUAF00060",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "10.116.181.43",
+      "memory": 31,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 126,
+    "fields": {
+      "name": "SVUAF00062",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.116.181.45",
+      "memory": 15,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 127,
+    "fields": {
+      "name": "SVUFI00008",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.116.250.89",
+      "memory": 3,
+      "disk": 10,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 128,
+    "fields": {
+      "name": "SVUIN80010",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "193.135.206.66",
+      "memory": 4,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 129,
+    "fields": {
+      "name": "SVUAF70056",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "193.135.205.169",
+      "memory": 15,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 130,
+    "fields": {
+      "name": "SVUAF00063",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "10.116.251.76",
+      "memory": 15,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 131,
+    "fields": {
+      "name": "SVUAF70057",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "193.135.205.170",
+      "memory": 15,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 132,
+    "fields": {
+      "name": "SVUAF00064",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "10.116.251.77",
+      "memory": 15,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 133,
+    "fields": {
+      "name": "SVUAF00066",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.116.251.50",
+      "memory": 1,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 134,
+    "fields": {
+      "name": "SVUAF70059",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "193.135.205.69",
+      "memory": 19,
+      "disk": 21,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 135,
+    "fields": {
+      "name": "SVUAF00067",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.5.5.48",
+      "memory": 19,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 136,
+    "fields": {
+      "name": "SVUIN00020",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.5.5.49",
+      "memory": 3,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 137,
+    "fields": {
+      "name": "SVUIN00021",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.5.5.50",
+      "memory": 3,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 138,
+    "fields": {
+      "name": "SVUIN00022",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.5.5.51",
+      "memory": 3,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 139,
+    "fields": {
+      "name": "SVUIN00023",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.5.5.52",
+      "memory": 3,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 140,
+    "fields": {
+      "name": "SVUIN00024",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.5.5.53",
+      "memory": 3,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 141,
+    "fields": {
+      "name": "SVUAF70060",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "193.135.205.41",
+      "memory": 7,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 142,
+    "fields": {
+      "name": "SVUAF00068",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.116.251.136",
+      "memory": 7,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 143,
+    "fields": {
+      "name": "SVUAF00069",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "10.116.251.137",
+      "memory": 7,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 144,
+    "fields": {
+      "name": "SVUAF70061",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "193.135.205.147",
+      "memory": 3,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 145,
+    "fields": {
+      "name": "SVUAF70062",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "193.135.205.148",
+      "memory": 3,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 146,
+    "fields": {
+      "name": "SVUAF70064",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "193.135.205.231",
+      "memory": 15,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 147,
+    "fields": {
+      "name": "SVUAF70065",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "193.135.205.232",
+      "memory": 15,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 148,
+    "fields": {
+      "name": "SVUAF70066",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "193.135.205.233",
+      "memory": 21,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 149,
+    "fields": {
+      "name": "SVUAF70067",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "193.135.205.234",
+      "memory": 15,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 150,
+    "fields": {
+      "name": "SVUIN80011",
+      "domain": 3,
+      "network": 3,
+      "cpu": 1,
+      "primary_ip_address": "193.135.206.40",
+      "memory": 1,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 151,
+    "fields": {
+      "name": "SVUAF00071",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.116.251.187",
+      "memory": 62,
+      "disk": 22,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 152,
+    "fields": {
+      "name": "SVUIN80012",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "193.135.206.95",
+      "memory": 7,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 153,
+    "fields": {
+      "name": "SVUFI70001",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "193.135.205.36",
+      "memory": 5,
+      "disk": 10,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 154,
+    "fields": {
+      "name": "SVUFI60001",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.116.0.25",
+      "memory": 1,
+      "disk": 10,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 155,
+    "fields": {
+      "name": "SVUFI80003",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "193.135.206.51",
+      "memory": 1,
+      "disk": 10,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 156,
+    "fields": {
+      "name": "SVUFI90001",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "193.47.122.138",
+      "memory": 1,
+      "disk": 10,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 157,
+    "fields": {
+      "name": "SVUAF00075",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.5.3.106",
+      "memory": 31,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 158,
+    "fields": {
+      "name": "SVUAF00076",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "10.5.3.107",
+      "memory": 31,
+      "disk": 23,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 159,
+    "fields": {
+      "name": "SVUAF00077",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.5.6.40",
+      "memory": 7,
+      "disk": 15,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 160,
+    "fields": {
+      "name": "SVUAF00078",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.5.6.41",
+      "memory": 7,
+      "disk": 15,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 161,
+    "fields": {
+      "name": "SVUIN80014",
+      "domain": 3,
+      "network": 3,
+      "cpu": 16,
+      "primary_ip_address": "193.135.206.67",
+      "memory": 31,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 162,
+    "fields": {
+      "name": "SVDHS00008",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.5.6.89",
+      "memory": 46,
+      "disk": 116,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 163,
+    "fields": {
+      "name": "SVDHS00007",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "10.5.6.88",
+      "memory": 15,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 164,
+    "fields": {
+      "name": "SVDHS00009",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.5.6.90",
+      "memory": 7,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 165,
+    "fields": {
+      "name": "SVUAS70009",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "193.135.205.51",
+      "memory": 15,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 166,
+    "fields": {
+      "name": "SVUAS70008",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "193.135.205.42",
+      "memory": 15,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 167,
+    "fields": {
+      "name": "SVUAF00079",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.116.251.93",
+      "memory": 1,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 168,
+    "fields": {
+      "name": "SVUAF00080",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.116.251.207",
+      "memory": 1,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 169,
+    "fields": {
+      "name": "SVUIN70016",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "193.135.205.243",
+      "memory": 15,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 170,
+    "fields": {
+      "name": "SVUIN70017",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "193.135.205.244",
+      "memory": 3,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 171,
+    "fields": {
+      "name": "SVUCA900032",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "193.47.122.65",
+      "memory": 3,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 172,
+    "fields": {
+      "name": "SVUAF80011",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "193.135.206.78",
+      "memory": 0,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 173,
+    "fields": {
+      "name": "SVUAF80012",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "193.135.206.79",
+      "memory": 3,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 174,
+    "fields": {
+      "name": "SVDHS00011",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.5.6.68",
+      "memory": 7,
+      "disk": 10,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 175,
+    "fields": {
+      "name": "SVUDM00009",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "10.5.5.69",
+      "memory": 23,
+      "disk": 5,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 176,
+    "fields": {
+      "name": "SVDHS00012",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.116.251.51",
+      "memory": 15,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 177,
+    "fields": {
+      "name": "SVDHS00013",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.116.251.52",
+      "memory": 3,
+      "disk": 18,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 178,
+    "fields": {
+      "name": "SVUDM00012",
+      "domain": 3,
+      "network": 3,
+      "cpu": 1,
+      "primary_ip_address": "10.5.5.45",
+      "memory": 3,
+      "disk": 15,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 179,
+    "fields": {
+      "name": "SVUDM00013",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.5.5.70",
+      "memory": 15,
+      "disk": 15,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 180,
+    "fields": {
+      "name": "SVDHS00015",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.116.250.64",
+      "memory": 15,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 181,
+    "fields": {
+      "name": "SVDHS00016",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "10.116.250.65",
+      "memory": 15,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 182,
+    "fields": {
+      "name": "SVDHS00018",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "10.5.6.144",
+      "memory": 7,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 183,
+    "fields": {
+      "name": "SVDHS00017",
+      "domain": 3,
+      "network": 3,
+      "cpu": 1,
+      "primary_ip_address": "10.5.6.143",
+      "memory": 7,
+      "disk": 39,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 184,
+    "fields": {
+      "name": "SVDHS00019",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.5.6.43",
+      "memory": 47,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 185,
+    "fields": {
+      "name": "SVUAF00083",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.116.181.92",
+      "memory": 3,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 186,
+    "fields": {
+      "name": "SVUAF00082",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.116.181.91",
+      "memory": 3,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 187,
+    "fields": {
+      "name": "SVDHS00023",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.5.6.149",
+      "memory": 7,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 188,
+    "fields": {
+      "name": "SVDHS00022",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.5.6.148",
+      "memory": 7,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 189,
+    "fields": {
+      "name": "SVDHS00021",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.5.6.147",
+      "memory": 7,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 190,
+    "fields": {
+      "name": "SVDHS00024",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.5.6.151",
+      "memory": 3,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 191,
+    "fields": {
+      "name": "SVUAF00084",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.116.181.96",
+      "memory": 3,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 192,
+    "fields": {
+      "name": "SVUAF00085",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.116.181.97",
+      "memory": 3,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 193,
+    "fields": {
+      "name": "SVDHS00025",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.5.6.174",
+      "memory": 46,
+      "disk": 50,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 194,
+    "fields": {
+      "name": "SPUDO00023",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.5.6.181",
+      "memory": 755,
+      "disk": 167,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 195,
+    "fields": {
+      "name": "SPUDO00024",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.5.6.182",
+      "memory": 755,
+      "disk": 167,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 196,
+    "fields": {
+      "name": "SVUIN00025",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.116.181.116",
+      "memory": 3,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 197,
+    "fields": {
+      "name": "SVUIN00026",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.116.181.117",
+      "memory": 3,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 198,
+    "fields": {
+      "name": "SVDHS60001",
+      "domain": 3,
+      "network": 3,
+      "cpu": 1,
+      "primary_ip_address": "10.116.0.27",
+      "memory": 0,
+      "disk": 29,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 199,
+    "fields": {
+      "name": "SVUAF00086",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.116.250.96",
+      "memory": 3,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 200,
+    "fields": {
+      "name": "SVUAF00087",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.116.250.97",
+      "memory": 3,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 201,
+    "fields": {
+      "name": "SVDHS00028",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.5.3.152",
+      "memory": 15,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 202,
+    "fields": {
+      "name": "SVDHS00030",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.5.3.154",
+      "memory": 15,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 203,
+    "fields": {
+      "name": "SVUCA900042",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "193.47.122.142",
+      "memory": 15,
+      "disk": 10,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 204,
+    "fields": {
+      "name": "SVUCA900052",
+      "domain": 3,
+      "network": 3,
+      "cpu": 16,
+      "primary_ip_address": "193.47.122.82",
+      "memory": 23,
+      "disk": 10,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 205,
+    "fields": {
+      "name": "SVDHS00031",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.5.3.115",
+      "memory": 31,
+      "disk": 5,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 206,
+    "fields": {
+      "name": "SVUAF70085",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "193.135.202.109",
+      "memory": 47,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 207,
+    "fields": {
+      "name": "SVUAF70086",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "193.135.202.73",
+      "memory": 15,
+      "disk": 45,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 208,
+    "fields": {
+      "name": "SPUAS60002",
+      "domain": 3,
+      "network": 3,
+      "cpu": 16,
+      "primary_ip_address": "192.168.230.24",
+      "memory": 62,
+      "disk": 60,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 209,
+    "fields": {
+      "name": "SPUAS70002",
+      "domain": 3,
+      "network": 3,
+      "cpu": 16,
+      "primary_ip_address": "192.168.224.23",
+      "memory": 62,
+      "disk": 60,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 210,
+    "fields": {
+      "name": "SVDHS00032",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "10.5.3.119",
+      "memory": 31,
+      "disk": 30,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 211,
+    "fields": {
+      "name": "SVUAF90003",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "193.47.122.83",
+      "memory": 7,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 212,
+    "fields": {
+      "name": "SVUAF80013",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "193.135.206.85",
+      "memory": 7,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 213,
+    "fields": {
+      "name": "SVUAS80008",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "193.135.206.86",
+      "memory": 7,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 214,
+    "fields": {
+      "name": "SPUDO00025",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.5.4.70",
+      "memory": 755,
+      "disk": 167,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 215,
+    "fields": {
+      "name": "SPUDO00026",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.5.1.47",
+      "memory": 755,
+      "disk": 165,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 216,
+    "fields": {
+      "name": "SVUAD00019",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.116.251.101",
+      "memory": 125,
+      "disk": 45,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 217,
+    "fields": {
+      "name": "SVUAF70089",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "193.135.202.142",
+      "memory": 31,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 218,
+    "fields": {
+      "name": "SVUFI90002",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "193.47.104.203",
+      "memory": 31,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 219,
+    "fields": {
+      "name": "SVUAS00070",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "10.5.3.30",
+      "memory": 3,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 220,
+    "fields": {
+      "name": "SVUIN00027",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "193.135.182.56",
+      "memory": 7,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 221,
+    "fields": {
+      "name": "SVDHS00034",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "10.5.3.34",
+      "memory": 15,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 222,
+    "fields": {
+      "name": "SPUAF00007",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "10.116.181.51",
+      "memory": 94,
+      "disk": 894,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 223,
+    "fields": {
+      "name": "SPUAF00008",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "10.116.181.50",
+      "memory": 94,
+      "disk": 894,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 224,
+    "fields": {
+      "name": "SPUAF00009",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "10.116.181.52",
+      "memory": 94,
+      "disk": 12,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 225,
+    "fields": {
+      "name": "SVUAS00071",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.5.3.54",
+      "memory": 3,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 226,
+    "fields": {
+      "name": "SVUFI60002",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "10.116.0.70",
+      "memory": 7,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 227,
+    "fields": {
+      "name": "SVUFI60003",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "10.116.0.71",
+      "memory": 7,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 228,
+    "fields": {
+      "name": "SVUAD00020",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.116.251.78",
+      "memory": 125,
+      "disk": 40,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 229,
+    "fields": {
+      "name": "SVUIN70018",
+      "domain": 3,
+      "network": 3,
+      "cpu": 1,
+      "primary_ip_address": "193.135.202.175",
+      "memory": 1,
+      "disk": 5,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 230,
+    "fields": {
+      "name": "SVDHS00035",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "10.116.250.25",
+      "memory": 3,
+      "disk": 40,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 231,
+    "fields": {
+      "name": "SVDHS00036",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "10.116.250.26",
+      "memory": 3,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 232,
+    "fields": {
+      "name": "SVDHS00037",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "10.116.250.27",
+      "memory": 3,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 233,
+    "fields": {
+      "name": "SVDHS00038",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.116.250.28",
+      "memory": 15,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 234,
+    "fields": {
+      "name": "SVDHS00039",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "10.116.250.157",
+      "memory": 3,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 235,
+    "fields": {
+      "name": "SVDHS00040",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "10.116.250.158",
+      "memory": 3,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 236,
+    "fields": {
+      "name": "SVDHS00042",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.116.250.160",
+      "memory": 15,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 237,
+    "fields": {
+      "name": "SVDHS00043",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.5.3.102",
+      "memory": 15,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 238,
+    "fields": {
+      "name": "SVDHS00044",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.5.3.103",
+      "memory": 15,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 239,
+    "fields": {
+      "name": "SPUDO00027",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.6.196.115",
+      "memory": 755,
+      "disk": 167,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 240,
+    "fields": {
+      "name": "SPUDO00028",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.6.196.116",
+      "memory": 755,
+      "disk": 167,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 241,
+    "fields": {
+      "name": "SVDHS00048",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.5.3.134",
+      "memory": 15,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 242,
+    "fields": {
+      "name": "SPUDO00029",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.6.196.117",
+      "memory": 755,
+      "disk": 167,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 243,
+    "fields": {
+      "name": "SPUDO00030",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.6.196.118",
+      "memory": 755,
+      "disk": 167,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 244,
+    "fields": {
+      "name": "SVDHS00049",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.5.3.169",
+      "memory": 15,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 245,
+    "fields": {
+      "name": "SVUAS00072",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "193.135.182.58",
+      "memory": 15,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 246,
+    "fields": {
+      "name": "SVDHS00051",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.116.250.142",
+      "memory": 62,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 247,
+    "fields": {
+      "name": "SVDHS00052",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.116.250.143",
+      "memory": 31,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 248,
+    "fields": {
+      "name": "SVUAF00090",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.5.6.103",
+      "memory": 15,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 249,
+    "fields": {
+      "name": "SVUAF70093",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "193.135.202.53",
+      "memory": 15,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 250,
+    "fields": {
+      "name": "SVDHS00054",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "10.5.5.73",
+      "memory": 15,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 251,
+    "fields": {
+      "name": "SVDHS70089",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "193.135.202.213",
+      "memory": 3,
+      "disk": 10,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 252,
+    "fields": {
+      "name": "SVUFI00013",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.5.5.54",
+      "memory": 1,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 253,
+    "fields": {
+      "name": "SVDHS60002",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.116.0.75",
+      "memory": 3,
+      "disk": 10,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 254,
+    "fields": {
+      "name": "SVUAS00073",
+      "domain": 3,
+      "network": 3,
+      "cpu": 1,
+      "primary_ip_address": "10.5.5.74",
+      "memory": 0,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 255,
+    "fields": {
+      "name": "SVUAF70094",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "193.135.202.214",
+      "memory": 7,
+      "disk": 10,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 256,
+    "fields": {
+      "name": "SVDHS00059",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "10.116.181.70",
+      "memory": 15,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 257,
+    "fields": {
+      "name": "SVDHS00060",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "10.5.6.156",
+      "memory": 15,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 258,
+    "fields": {
+      "name": "SVDHS00061",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "10.5.6.157",
+      "memory": 15,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 259,
+    "fields": {
+      "name": "SPUAS60003",
+      "domain": 3,
+      "network": 3,
+      "cpu": 16,
+      "primary_ip_address": "192.168.230.52",
+      "memory": 62,
+      "disk": 60,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 260,
+    "fields": {
+      "name": "SPUAS70003",
+      "domain": 3,
+      "network": 3,
+      "cpu": 16,
+      "primary_ip_address": "192.168.224.24",
+      "memory": 62,
+      "disk": 200,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 261,
+    "fields": {
+      "name": "SVUAF00091",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.116.181.73",
+      "memory": 7,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 262,
+    "fields": {
+      "name": "SPUDO00031",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.5.4.46",
+      "memory": 755,
+      "disk": 167,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 263,
+    "fields": {
+      "name": "SVUAF70095",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "193.135.203.28",
+      "memory": 15,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 264,
+    "fields": {
+      "name": "SVUAF00092",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "10.5.5.85",
+      "memory": 31,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 265,
+    "fields": {
+      "name": "SVUAS00074",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.5.2.175",
+      "memory": 3,
+      "disk": 45,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 266,
+    "fields": {
+      "name": "SVUAF00093",
+      "domain": 3,
+      "network": 3,
+      "cpu": 10,
+      "primary_ip_address": "10.5.5.93",
+      "memory": 35,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 267,
+    "fields": {
+      "name": "SVUAF00094",
+      "domain": 3,
+      "network": 3,
+      "cpu": 10,
+      "primary_ip_address": "10.5.5.94",
+      "memory": 35,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 268,
+    "fields": {
+      "name": "SVUAF00095",
+      "domain": 3,
+      "network": 3,
+      "cpu": 10,
+      "primary_ip_address": "10.5.5.95",
+      "memory": 35,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 269,
+    "fields": {
+      "name": "SVDHS00064",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.5.5.81",
+      "memory": 7,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 270,
+    "fields": {
+      "name": "SVUIN00028",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "193.135.182.60",
+      "memory": 3,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 271,
+    "fields": {
+      "name": "SVUAF00096",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "193.135.182.218",
+      "memory": 7,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 272,
+    "fields": {
+      "name": "SVDHS00066",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.5.5.88",
+      "memory": 31,
+      "disk": 39,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 273,
+    "fields": {
+      "name": "SVDHS00068",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.5.6.60",
+      "memory": 7,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 274,
+    "fields": {
+      "name": "SVDHS00069",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.5.5.39",
+      "memory": 15,
+      "disk": 49,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 275,
+    "fields": {
+      "name": "SVUAD00036",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "10.116.251.176",
+      "memory": 125,
+      "disk": 45,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 276,
+    "fields": {
+      "name": "SVUAF00097",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.6.196.158",
+      "memory": 31,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 277,
+    "fields": {
+      "name": "SVUAF00098",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.6.196.159",
+      "memory": 31,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 278,
+    "fields": {
+      "name": "SVUAF00099",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "10.6.196.160",
+      "memory": 7,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 279,
+    "fields": {
+      "name": "SVUAF00100",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.6.196.161",
+      "memory": 31,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 280,
+    "fields": {
+      "name": "SVUAF00101",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.6.196.162",
+      "memory": 31,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 281,
+    "fields": {
+      "name": "SVUAF00102",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "10.6.196.163",
+      "memory": 7,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 282,
+    "fields": {
+      "name": "SVUAF00103",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.6.196.164",
+      "memory": 31,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 283,
+    "fields": {
+      "name": "SVUAF00104",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.6.196.165",
+      "memory": 31,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 284,
+    "fields": {
+      "name": "SVUAF00105",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "10.6.196.166",
+      "memory": 7,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 285,
+    "fields": {
+      "name": "SVDHS00070",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.5.6.192",
+      "memory": 3,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 286,
+    "fields": {
+      "name": "SPUAS00159",
+      "domain": 3,
+      "network": 3,
+      "cpu": 96,
+      "primary_ip_address": "10.116.180.95",
+      "memory": 377,
+      "disk": 11174,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 287,
+    "fields": {
+      "name": "SPUAS00160",
+      "domain": 3,
+      "network": 3,
+      "cpu": 96,
+      "primary_ip_address": "10.116.180.96",
+      "memory": 377,
+      "disk": 11174,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 288,
+    "fields": {
+      "name": "SPUAS00161",
+      "domain": 3,
+      "network": 3,
+      "cpu": 96,
+      "primary_ip_address": "10.116.180.97",
+      "memory": 377,
+      "disk": 11174,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 289,
+    "fields": {
+      "name": "SPUAS00162",
+      "domain": 3,
+      "network": 3,
+      "cpu": 96,
+      "primary_ip_address": "10.116.180.98",
+      "memory": 377,
+      "disk": 11174,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 290,
+    "fields": {
+      "name": "SPUAS00163",
+      "domain": 3,
+      "network": 3,
+      "cpu": 96,
+      "primary_ip_address": "10.116.180.99",
+      "memory": 377,
+      "disk": 11174,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 291,
+    "fields": {
+      "name": "SPUAS00164",
+      "domain": 3,
+      "network": 3,
+      "cpu": 96,
+      "primary_ip_address": "10.116.180.100",
+      "memory": 377,
+      "disk": 11174,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 292,
+    "fields": {
+      "name": "SVUAF00106",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.5.6.82",
+      "memory": 15,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 293,
+    "fields": {
+      "name": "SVDHS00071",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "10.6.196.44",
+      "memory": 15,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 294,
+    "fields": {
+      "name": "SVUAF00107",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.5.6.72",
+      "memory": 15,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 295,
+    "fields": {
+      "name": "SVUAF00108",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.5.6.79",
+      "memory": 7,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 296,
+    "fields": {
+      "name": "SVUAF00109",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.5.6.80",
+      "memory": 3,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 297,
+    "fields": {
+      "name": "SVUFI00017",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.5.6.135",
+      "memory": 3,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 298,
+    "fields": {
+      "name": "SVUAF00110",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.5.5.113",
+      "memory": 15,
+      "disk": 30,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 299,
+    "fields": {
+      "name": "SVUAF70106",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "193.135.203.53",
+      "memory": 3,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 300,
+    "fields": {
+      "name": "SVDHS00072",
+      "domain": 3,
+      "network": 3,
+      "cpu": 1,
+      "primary_ip_address": "10.5.5.117",
+      "memory": 3,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 301,
+    "fields": {
+      "name": "SVDHS00073",
+      "domain": 3,
+      "network": 3,
+      "cpu": 1,
+      "primary_ip_address": "10.5.5.118",
+      "memory": 3,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 302,
+    "fields": {
+      "name": "SVDHS00074",
+      "domain": 3,
+      "network": 3,
+      "cpu": 1,
+      "primary_ip_address": "10.5.5.119",
+      "memory": 3,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 303,
+    "fields": {
+      "name": "SVUDM00026",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.5.5.139",
+      "memory": 7,
+      "disk": 10,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 304,
+    "fields": {
+      "name": "SVUAF00111",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.6.196.41",
+      "memory": 15,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 305,
+    "fields": {
+      "name": "SVUFI90003",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "193.47.122.84",
+      "memory": 3,
+      "disk": 15,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 306,
+    "fields": {
+      "name": "SVUAF00112",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "10.5.3.157",
+      "memory": 31,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 307,
+    "fields": {
+      "name": "SVUAF00113",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "10.5.3.158",
+      "memory": 31,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 308,
+    "fields": {
+      "name": "SVUDO00002",
+      "domain": 3,
+      "network": 3,
+      "cpu": 1,
+      "primary_ip_address": "10.5.5.87",
+      "memory": 1,
+      "disk": 10,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 309,
+    "fields": {
+      "name": "SVDHS00076",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.5.6.219",
+      "memory": 7,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 310,
+    "fields": {
+      "name": "SVUDM00027",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.5.5.147",
+      "memory": 46,
+      "disk": 10,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 311,
+    "fields": {
+      "name": "SVUDM00028",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.5.5.148",
+      "memory": 46,
+      "disk": 10,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 312,
+    "fields": {
+      "name": "SVDHS00077",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.5.5.114",
+      "memory": 3,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 313,
+    "fields": {
+      "name": "SVUAS70010",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "193.135.202.189",
+      "memory": 31,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 314,
+    "fields": {
+      "name": "SVPAS00127",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.5.5.103",
+      "memory": 7,
+      "disk": 21,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 315,
+    "fields": {
+      "name": "SVUDM00032",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.5.6.155",
+      "memory": 15,
+      "disk": 10,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 316,
+    "fields": {
+      "name": "SVUAF00114",
+      "domain": 3,
+      "network": 3,
+      "cpu": 1,
+      "primary_ip_address": null,
+      "memory": 1,
+      "disk": 150,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 317,
+    "fields": {
+      "name": "SVUAF00115",
+      "domain": 3,
+      "network": 3,
+      "cpu": 1,
+      "primary_ip_address": null,
+      "memory": 1,
+      "disk": 150,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 318,
+    "fields": {
+      "name": "SVUAF00117",
+      "domain": 3,
+      "network": 3,
+      "cpu": 1,
+      "primary_ip_address": null,
+      "memory": 1,
+      "disk": 150,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 319,
+    "fields": {
+      "name": "SVUAF00116",
+      "domain": 3,
+      "network": 3,
+      "cpu": 1,
+      "primary_ip_address": null,
+      "memory": 1,
+      "disk": 150,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 320,
+    "fields": {
+      "name": "SVUAF00118",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": null,
+      "memory": 8,
+      "disk": 35,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 321,
+    "fields": {
+      "name": "SVUAD00041",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": null,
+      "memory": 8,
+      "disk": 50,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 322,
+    "fields": {
+      "name": "SVUAD00042",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": null,
+      "memory": 8,
+      "disk": 50,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 323,
+    "fields": {
+      "name": "SVUAD00043",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": null,
+      "memory": 8,
+      "disk": 50,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 324,
+    "fields": {
+      "name": "SVUAD00044",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": null,
+      "memory": 8,
+      "disk": 50,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 325,
+    "fields": {
+      "name": "SVUAD00045",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": null,
+      "memory": 8,
+      "disk": 50,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 326,
+    "fields": {
+      "name": "SVUDM00033",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.5.5.154",
+      "memory": 7,
+      "disk": 10,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 327,
+    "fields": {
+      "name": "SVUAS00078",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.116.180.28",
+      "memory": 15,
+      "disk": 29,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 328,
+    "fields": {
+      "name": "SVUAS00079",
+      "domain": 3,
+      "network": 3,
+      "cpu": 1,
+      "primary_ip_address": "10.5.4.90",
+      "memory": 3,
+      "disk": 29,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 329,
+    "fields": {
+      "name": "SVDHS00079",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.5.4.115",
+      "memory": 3,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 330,
+    "fields": {
+      "name": "SVUAF10001",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.5.4.116",
+      "memory": 1,
+      "disk": 29,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 331,
+    "fields": {
+      "name": "SVUAF10002",
+      "domain": 3,
+      "network": 3,
+      "cpu": 1,
+      "primary_ip_address": "10.5.4.117",
+      "memory": 1,
+      "disk": 29,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 332,
+    "fields": {
+      "name": "SVUIN00029",
+      "domain": 3,
+      "network": 3,
+      "cpu": 1,
+      "primary_ip_address": "193.135.182.33",
+      "memory": 3,
+      "disk": 51,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 333,
+    "fields": {
+      "name": "SPUAS00165",
+      "domain": 3,
+      "network": 3,
+      "cpu": 16,
+      "primary_ip_address": "10.5.4.40",
+      "memory": 503,
+      "disk": 80,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 334,
+    "fields": {
+      "name": "SPUAF00010",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "10.116.181.35",
+      "memory": 93,
+      "disk": 894,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 335,
+    "fields": {
+      "name": "SPUAF00011",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "10.116.181.36",
+      "memory": 93,
+      "disk": 894,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 336,
+    "fields": {
+      "name": "SPUAF00012",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "10.116.181.56",
+      "memory": 93,
+      "disk": 894,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 337,
+    "fields": {
+      "name": "SPUAF00013",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.116.181.29",
+      "memory": 125,
+      "disk": 893,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 338,
+    "fields": {
+      "name": "SPUAF00014",
+      "domain": 3,
+      "network": 3,
+      "cpu": 4,
+      "primary_ip_address": "10.116.181.32",
+      "memory": 93,
+      "disk": 894,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 339,
+    "fields": {
+      "name": "SVUAS00080",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.5.6.100",
+      "memory": 3,
+      "disk": 29,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 340,
+    "fields": {
+      "name": "SVUDM00035",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.5.6.253",
+      "memory": 31,
+      "disk": 10,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 341,
+    "fields": {
+      "name": "SVUDM00036",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.5.6.39",
+      "memory": 15,
+      "disk": 10,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 342,
+    "fields": {
+      "name": "SVUAS90010",
+      "domain": 3,
+      "network": 3,
+      "cpu": 1,
+      "primary_ip_address": "193.47.122.61",
+      "memory": 3,
+      "disk": 21,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 343,
+    "fields": {
+      "name": "SVUDM00037",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.5.6.128",
+      "memory": 62,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 344,
+    "fields": {
+      "name": "SVUDM00038",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.5.6.129",
+      "memory": 62,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 345,
+    "fields": {
+      "name": "SVUDM00039",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.5.6.130",
+      "memory": 62,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 346,
+    "fields": {
+      "name": "SVUDM00042",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.5.6.166",
+      "memory": 62,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 347,
+    "fields": {
+      "name": "SVUDM00041",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.5.6.165",
+      "memory": 62,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 348,
+    "fields": {
+      "name": "SVUDM00040",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.5.6.164",
+      "memory": 62,
+      "disk": 20,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 349,
+    "fields": {
+      "name": "SVUAS00081",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "193.135.182.61",
+      "memory": 15,
+      "disk": 49,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 350,
+    "fields": {
+      "name": "SPUAS00167",
+      "domain": 3,
+      "network": 3,
+      "cpu": 48,
+      "primary_ip_address": "10.5.4.129",
+      "memory": 503,
+      "disk": 280,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 351,
+    "fields": {
+      "name": "SVDHS00080",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.5.5.137",
+      "memory": 30,
+      "disk": 39,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 352,
+    "fields": {
+      "name": "SVDHS00081",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.6.196.130",
+      "memory": 15,
+      "disk": 39,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 353,
+    "fields": {
+      "name": "SPUDO00032",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.5.4.166",
+      "memory": 1007,
+      "disk": 354,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 354,
+    "fields": {
+      "name": "SPUDO00033",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.5.4.167",
+      "memory": 1007,
+      "disk": 354,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 355,
+    "fields": {
+      "name": "SPUDO00034",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.5.4.168",
+      "memory": 1007,
+      "disk": 354,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 356,
+    "fields": {
+      "name": "SPUDO00035",
+      "domain": 3,
+      "network": 3,
+      "cpu": 8,
+      "primary_ip_address": "10.5.4.169",
+      "memory": 1007,
+      "disk": 354,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 357,
+    "fields": {
+      "name": "SVDHS00082",
+      "domain": 3,
+      "network": 3,
+      "cpu": 2,
+      "primary_ip_address": "10.5.4.156",
+      "memory": 3,
+      "disk": 39,
+      "status": "ACT",
+      "os": 1,
+      "groups": []
+    }
+  }
+]

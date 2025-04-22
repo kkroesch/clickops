@@ -1,0 +1,239 @@
+[
+  {
+    "model": "servers.operatingsystem",
+    "pk": 1,
+    "fields": {
+      "name": "SUSE Enterprise",
+      "major_version": 15,
+      "minor_version": 6,
+      "patch_level": 21
+    }
+  },
+  {
+    "model": "servers.operatingsystem",
+    "pk": 2,
+    "fields": {
+      "name": "openSUSE Leap",
+      "major_version": 15,
+      "minor_version": 6,
+      "patch_level": 0
+    }
+  },
+  {
+    "model": "servers.operatingsystem",
+    "pk": 3,
+    "fields": {
+      "name": "Ubuntu",
+      "major_version": 22,
+      "minor_version": 4,
+      "patch_level": 0
+    }
+  },
+  {
+    "model": "servers.operatingsystem",
+    "pk": 4,
+    "fields": {
+      "name": "Rocky",
+      "major_version": 9,
+      "minor_version": 0,
+      "patch_level": 0
+    }
+  },
+  {
+    "model": "servers.operatingsystem",
+    "pk": 5,
+    "fields": {
+      "name": "SUSE Llinux Micro",
+      "major_version": 5,
+      "minor_version": 5,
+      "patch_level": 0
+    }
+  },
+  {
+    "model": "servers.operatingsystem",
+    "pk": 6,
+    "fields": {
+      "name": "SUSE Linux Mirco",
+      "major_version": 6,
+      "minor_version": 0,
+      "patch_level": 0
+    }
+  },
+  {
+    "model": "servers.operatingsystem",
+    "pk": 7,
+    "fields": {
+      "name": "Fedora",
+      "major_version": 40,
+      "minor_version": 0,
+      "patch_level": 0
+    }
+  },
+  {
+    "model": "servers.network",
+    "pk": 1,
+    "fields": {
+      "vlan_name": "VLAN-105",
+      "ipv4_address": "192.168.11.0",
+      "netmask": "255.255.255.0"
+    }
+  },
+  {
+    "model": "servers.network",
+    "pk": 2,
+    "fields": {
+      "vlan_name": "VLAN-107",
+      "ipv4_address": "192.168.122.0",
+      "netmask": "255.255.255.0"
+    }
+  },
+  {
+    "model": "servers.network",
+    "pk": 3,
+    "fields": {
+      "vlan_name": "VLAN-507",
+      "ipv4_address": "10.5.5.0",
+      "netmask": "255.255.255.0"
+    }
+  },
+  {
+    "model": "servers.domain",
+    "pk": 1,
+    "fields": {
+      "name": "kroesch.net",
+      "ns1": "darwin.ns.cloudflare.com",
+      "ns2": "rachel.ns.cloudflare.com"
+    }
+  },
+  {
+    "model": "servers.domain",
+    "pk": 2,
+    "fields": {
+      "name": "aargau.cloud",
+      "ns1": "darwin.ns.cloudflare.com",
+      "ns2": "rachel.ns.cloudflare.com"
+    }
+  },
+  {
+    "model": "servers.domain",
+    "pk": 3,
+    "fields": {
+      "name": "ktag.ch",
+      "ns1": "ns1.ag.ch",
+      "ns2": "ns2.ag.ch"
+    }
+  },
+  {
+    "model": "servers.group",
+    "pk": 1,
+    "fields": {
+      "name": "Docker Nodes"
+    }
+  },
+  {
+    "model": "servers.group",
+    "pk": 2,
+    "fields": {
+      "name": "Desktop"
+    }
+  },
+  {
+    "model": "servers.group",
+    "pk": 3,
+    "fields": {
+      "name": "Database"
+    }
+  },
+  {
+    "model": "servers.group",
+    "pk": 4,
+    "fields": {
+      "name": "Web"
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 1,
+    "fields": {
+      "name": "srv08750056",
+      "domain": 2,
+      "primary_ip_address": "192.168.11.3",
+      "network": 1,
+      "cpu": 2,
+      "memory": 1024,
+      "disk": 32,
+      "status": "DEL",
+      "os": 1,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 2,
+    "fields": {
+      "name": "srv00903302",
+      "domain": 1,
+      "primary_ip_address": "192.168.11.2",
+      "network": 1,
+      "cpu": 2,
+      "memory": 1024,
+      "disk": 32,
+      "status": "PEN",
+      "os": 3,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 3,
+    "fields": {
+      "name": "sppas00016",
+      "domain": 3,
+      "primary_ip_address": "10.5.5.2",
+      "network": 3,
+      "cpu": 16,
+      "memory": 65536,
+      "disk": 8000,
+      "status": "PEN",
+      "os": 7,
+      "groups": []
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 6,
+    "fields": {
+      "name": "srv09025027",
+      "domain": 1,
+      "primary_ip_address": "192.168.122.3",
+      "network": 2,
+      "cpu": 2,
+      "memory": 1024,
+      "disk": 32,
+      "status": "ACT",
+      "os": 2,
+      "groups": [
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "model": "servers.server",
+    "pk": 7,
+    "fields": {
+      "name": "srv03412053",
+      "domain": 3,
+      "primary_ip_address": "192.168.122.1",
+      "network": 2,
+      "cpu": 2,
+      "memory": 1024,
+      "disk": 32,
+      "status": "ACT",
+      "os": 3,
+      "groups": [
+        4
+      ]
+    }
+  }
+]
