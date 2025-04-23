@@ -38,7 +38,7 @@ class Network(models.Model):
             if ip not in allocated_ips:
                 return str(ip)
         return None
-        
+
 
 class Domain(models.Model):
     name = models.CharField(max_length=200)
@@ -47,7 +47,7 @@ class Domain(models.Model):
 
     def __str__(self):
         return self.name
-    
+
 
 class Group(models.Model):
     name = models.CharField(max_length=100)
@@ -58,11 +58,11 @@ class Group(models.Model):
 
 class Server(models.Model):
     name = models.CharField(
-        max_length=200, blank=True, 
+        max_length=200, blank=True,
         help_text="""Der Hostname wird automatisch generiert, wenn keiner vergeben wird.""")
     domain = models.ForeignKey(Domain, related_name='servers', on_delete=models.DO_NOTHING, null=True, blank=True)
     primary_ip_address = models.GenericIPAddressField(
-        protocol='IPv4', unique=True, null=True, blank=True, 
+        protocol='IPv4', unique=True, null=True, blank=True,
         #validators=[Network.validate_ip],
         help_text="""Es wird die nächste freie IP aus dem zugewisesenen Netz automatisch zugewiesen.""")
     network = models.ForeignKey(Network, related_name='servers', on_delete=models.CASCADE)
@@ -116,27 +116,3 @@ class NetworkInterface(models.Model):
 
     def __str__(self):
         return f"{self.name} ({self.type})"
-
-class NetworkInterface(models.Model):
-    server = models.ForeignKey(
-        Server,
-        on_delete=models.CASCADE,
-        related_name='interfaces'
-    )
-    ipv4 = models.GenericIPAddressField(protocol='IPv4', null=True, blank=True)
-    mac = models.CharField(max_length=17, blank=True)
-    vendor = models.CharField(max_length=100, blank=True)
-    TYPE_CHOICES = (
-        ('lan', 'LAN'),
-        ('wifi', 'WiFi'),
-        ('dmz', 'DMZ'),
-        ('mgm', 'Management'),
-        ('svc', 'Service'),
-    )
-    type = models.CharField(max_length=4, choices=TYPE_CHOICES, default='lan')
-    name = models.CharField(max_length=255, blank=True)
-
-    def __str__(self):
-        return f"{self.name} ({self.type})"
-
-

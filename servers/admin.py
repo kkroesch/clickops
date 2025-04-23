@@ -1,4 +1,5 @@
 
+from unfold.admin import ModelAdmin
 from django.contrib import admin
 from django.urls import path
 from django.shortcuts import redirect
@@ -19,7 +20,7 @@ class NetworkInterfaceInline(admin.TabularInline):
 
 
 @admin.register(Server)
-class ServerAdmin(admin.ModelAdmin):
+class ServerAdmin(ModelAdmin):
     list_display = ('name', 'domain', 'primary_ip_address', 'cpu', 'memory', 'disk', 'status', 'os')
     search_fields = ('name',)
     list_filter = ('domain', 'os','status', 'groups',)
@@ -63,18 +64,18 @@ class ServerAdmin(admin.ModelAdmin):
 
 
 @admin.register(Network)
-class NetworkAdmin(admin.ModelAdmin):
+class NetworkAdmin(ModelAdmin):
     list_display = ('vlan_name', 'ipv4_address', 'netmask')
 
 @admin.register(Domain)
-class DomainAdmin(admin.ModelAdmin):
+class DomainAdmin(ModelAdmin):
     list_display = ('name', 'ns1', 'ns2')
 
 @admin.register(Group)
-class GroupAdmin(admin.ModelAdmin):
+class GroupAdmin(ModelAdmin):
     list_display = ('name',)
 
 @admin.register(OperatingSystem)
-class OperatingSystemAdmin(admin.ModelAdmin):
+class OperatingSystemAdmin(ModelAdmin):
     list_display = ('name', 'major_version', 'minor_version', 'patch_level')
 
