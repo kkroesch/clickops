@@ -110,6 +110,7 @@ class NetworkInterface(models.Model):
         ('dmz', 'DMZ'),
         ('mgm', 'Management'),
         ('svc', 'Service'),
+        ('n/c', 'Not Connected')
     )
     type = models.CharField(max_length=4, choices=TYPE_CHOICES, default='lan')
     name = models.CharField(max_length=255, blank=True)

@@ -91,7 +91,7 @@
                             {% for iface in server.interfaces %}
                             <li class="list-group-item d-flex justify-content-between align-items-center">
                                 <div>
-                                    <i class="fas fa-network-wired me-1"></i> {{ iface.name }} — {{ iface.ip }}
+                                    <i class="fas fa-network-wired me-1"></i> {{ iface.name }} ({{ iface.type }}) — {{ iface.ip }}
                                 </div>
                                 <span class="status-lamp {% if iface.reachable %}status-up{% else %}status-down{% endif %}"></span>
                             </li>
