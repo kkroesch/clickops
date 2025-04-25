@@ -4,6 +4,10 @@ from django.db import models
 from django.core.validators import MaxValueValidator
 from django.core.exceptions import ValidationError
 
+from django.contrib.auth import get_user_model
+User = get_user_model()
+
+
 class Status(models.TextChoices):
     PENDING = 'PEN', 'Pending'
     ACTIVE = 'ACT', 'Active'
@@ -46,14 +50,14 @@ class Domain(models.Model):
     ns2 = models.CharField(max_length=200)
 
     def __str__(self):
-        return self.name
+        return str(self.name)
 
 
 class Group(models.Model):
     name = models.CharField(max_length=100)
 
     def __str__(self):
-        return self.name
+        return str(self.name)
 
 
 class Server(models.Model):
@@ -66,12 +70,19 @@ class Server(models.Model):
         #validators=[Network.validate_ip],
         help_text="""Es wird die nächste freie IP aus dem zugewisesenen Netz automatisch zugewiesen.""")
     network = models.ForeignKey(Network, related_name='servers', on_delete=models.CASCADE)
-    cpu = models.IntegerField(validators=[MaxValueValidator(16)], default=2)
-    memory = models.IntegerField(validators=[MaxValueValidator(65536)], default=1024)
-    disk = models.IntegerField(validators=[MaxValueValidator(65536)], default=32)
+    cpu = models.IntegerField(validators=[MaxValueValidator(16)], null=True, blank=True, help_text="Cores")
+    memory = models.IntegerField(validators=[MaxValueValidator(65536)],  null=True, blank=True, help_text="RAM GB")
+    disk = models.IntegerField(validators=[MaxValueValidator(65536)],  null=True, blank=True, help_text="Disk GB")
+    vendor = models.CharField(max_length=100, null=True, blank=True)
+    model = models.CharField(max_length=100, null=True, blank=True)
     status = models.CharField(choices=Status.choices, default=Status.PENDING, max_length=3)
     groups = models.ManyToManyField(Group, related_name='servers')
     os = models.ForeignKey(OperatingSystem, related_name='servers', on_delete=models.CASCADE)
+    meta_data = models.JSONField(blank=True, null=True)
+    extra_data = models.JSONField(blank=True, null=True)
+    modified = models.DateTimeField(auto_now=True)
+    created = models.DateTimeField(auto_now_add=True)
+    author = models.ForeignKey(User, related_name='servers', on_delete=models.CASCADE)
 
     def save(self, *args, **kwargs):
         if not self.name:
@@ -92,7 +103,7 @@ class Server(models.Model):
         return f"srv{randint(0,9999999):08d}"
 
     def __str__(self):
-        return self.name
+        return str(self.name)
 
 
 class NetworkInterface(models.Model):

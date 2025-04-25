@@ -76,17 +76,25 @@ WSGI_APPLICATION = "clickops.wsgi.application"
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 DATABASES = {
-   "default": {
+   "development": {
        "ENGINE": "django.db.backends.sqlite3",
        "NAME": BASE_DIR / "db.sqlite3",
-   }
-    # "default": {
+   },
+    # "production": {
     #     "ENGINE": "django.db.backends.postgresql",
     #     "OPTIONS": {
     #         "service": "clickops",
     #         "passfile": ".pgpass",
     #     },
     # }
+    'default': {
+            'ENGINE': 'django.db.backends.postgresql',
+            'NAME': 'clickops',
+            'USER': 'admin',
+            'PASSWORD': 'secret',
+            'HOST': 'localhost',
+            'PORT': '5432',
+        }
 }
 
 

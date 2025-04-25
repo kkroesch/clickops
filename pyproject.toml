@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "clickops"
+version = "0.1.0"
+description = "Web UI for server and network management."
+authors = ["Karsten Kroesch <karsten@kroesch.ch>"]
+license = "MIT"
+readme = "Readme.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+asgiref = "3.8.1"
+django = "5.2"
+sqlparse = "0.5.3"
+psycopg = {extras = ["binary"], version = "^3.2.6"}
+djangorestframework = "^3.16.0"
+django-unfold = "^0.55.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

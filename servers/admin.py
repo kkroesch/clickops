@@ -16,6 +16,7 @@ admin.site.index_title = "DFR IT AG"
 
 class NetworkInterfaceInline(admin.TabularInline):
     model = NetworkInterface
+    readonly_fields = ('vendor',)
     extra = 1
 
 
@@ -24,11 +25,25 @@ class ServerAdmin(ModelAdmin):
     list_display = ('name', 'domain', 'primary_ip_address', 'cpu', 'memory', 'disk', 'status', 'os')
     search_fields = ('name',)
     list_filter = ('domain', 'os','status', 'groups',)
-
+    readonly_fields = ('modified', 'created', 'author', 'meta_data', 'extra_data')
+    fieldsets = [
+        ("General", {
+            'fields': [('name', 'domain')]
+        }),
+        ("Hardware", {
+            'fields': [('cpu', 'memory', 'disk')]
+        }),
+        ("Software", {
+            'fields': [('os', 'status')]
+        }),
+        ("Extra", {
+            'fields': [('extra_data', 'meta_data', 'groups')]
+        }),
+    ]
     actions = ['activate_servers', 'deactivate_servers', 'delete_selected_servers']
 
     inlines = [NetworkInterfaceInline]
-    
+
     @admin.action(description='Activate selected servers')
     def activate_servers(self, request, queryset):
         queryset.update(status=Status.ACTIVE)
@@ -39,7 +54,7 @@ class ServerAdmin(ModelAdmin):
             obj.save()
         except ValidationError as e:
             form.add_error(None, FormValidationError(e.message))
-    
+
     def get_urls(self):
         urls = super().get_urls()
         custom_urls = [
@@ -78,4 +93,3 @@ class GroupAdmin(ModelAdmin):
 @admin.register(OperatingSystem)
 class OperatingSystemAdmin(ModelAdmin):
     list_display = ('name', 'major_version', 'minor_version', 'patch_level')
-

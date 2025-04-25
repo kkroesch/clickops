@@ -1,964 +1,1021 @@
 [
-{
-    "model": "admin.logentry",
+  {
+    "model": "servers.server",
     "pk": 1,
     "fields": {
-        "action_time": "2025-04-03T10:47:32.233Z",
-        "user": 1,
-        "content_type": 10,
-        "object_id": "1",
-        "object_repr": "mgm.kube",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
+      "name": "amun",
+      "domain": 1,
+      "primary_ip_address": "192.168.100.17",
+      "network": 1,
+      "cpu": 8,
+      "memory": 32,
+      "disk": 2000,
+      "vendor": "Kroesch.NET",
+      "model": "amdiener",
+      "status": "ACT",
+      "os": 1,
+      "meta_data": null,
+      "extra_data": null,
+      "author": 1,
+      "groups": [],
+      "created": "2025-04-25T11:21:26.503398",
+      "modified": "2025-04-25T11:21:26.503398"
     }
-},
-{
-    "model": "admin.logentry",
+  },
+  {
+    "model": "servers.server",
     "pk": 2,
     "fields": {
-        "action_time": "2025-04-03T10:47:45.125Z",
-        "user": 1,
-        "content_type": 11,
-        "object_id": "1",
-        "object_repr": "appliance",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
+      "name": "aton",
+      "domain": 1,
+      "primary_ip_address": null,
+      "network": 1,
+      "cpu": 4,
+      "memory": 8,
+      "disk": 512,
+      "vendor": "Lenovo",
+      "model": "Thinkpad E14 Gen6",
+      "status": "ACT",
+      "os": 1,
+      "meta_data": null,
+      "extra_data": null,
+      "author": 1,
+      "groups": [],
+      "created": "2025-04-25T11:21:26.503398",
+      "modified": "2025-04-25T11:21:26.503398"
     }
-},
-{
-    "model": "admin.logentry",
+  },
+  {
+    "model": "servers.server",
     "pk": 3,
     "fields": {
-        "action_time": "2025-04-03T10:47:54.080Z",
-        "user": 1,
-        "content_type": 11,
-        "object_id": "2",
-        "object_repr": "worker",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
+      "name": "heket",
+      "domain": 1,
+      "primary_ip_address": "192.168.100.15",
+      "network": 1,
+      "cpu": 16,
+      "memory": 32,
+      "disk": 4,
+      "vendor": "HPE",
+      "model": "Proliant",
+      "status": "ACT",
+      "os": 1,
+      "meta_data": null,
+      "extra_data": null,
+      "author": 1,
+      "groups": [],
+      "created": "2025-04-25T11:21:26.503398",
+      "modified": "2025-04-25T11:21:26.503398"
     }
-},
-{
-    "model": "admin.logentry",
+  },
+  {
+    "model": "servers.server",
     "pk": 4,
     "fields": {
-        "action_time": "2025-04-03T10:48:20.441Z",
-        "user": 1,
-        "content_type": 8,
-        "object_id": "1",
-        "object_repr": "dmz - 192.168.100.0/255.255.255.0",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
+      "name": "hathor",
+      "domain": 1,
+      "primary_ip_address": "192.168.11.110",
+      "network": 1,
+      "cpu": 4,
+      "memory": 4,
+      "disk": 256,
+      "vendor": "homeassistant",
+      "model": "appliance",
+      "status": "ACT",
+      "os": 1,
+      "meta_data": null,
+      "extra_data": null,
+      "author": 1,
+      "groups": [],
+      "created": "2025-04-25T11:21:26.503398",
+      "modified": "2025-04-25T11:21:26.503398"
     }
-},
-{
-    "model": "admin.logentry",
+  },
+  {
+    "model": "servers.server",
     "pk": 5,
     "fields": {
-        "action_time": "2025-04-03T10:48:38.715Z",
-        "user": 1,
-        "content_type": 9,
-        "object_id": "1",
-        "object_repr": "Fedora 42.0.4",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
+      "name": "aker",
+      "domain": 1,
+      "primary_ip_address": "192.168.11.151",
+      "network": 1,
+      "cpu": 4,
+      "memory": 8,
+      "disk": 238,
+      "vendor": "raspberry found.",
+      "model": "pi 5",
+      "status": "ACT",
+      "os": 1,
+      "meta_data": null,
+      "extra_data": null,
+      "author": 1,
+      "groups": [],
+      "created": "2025-04-25T11:21:26.503398",
+      "modified": "2025-04-25T11:21:26.503398"
     }
-},
-{
-    "model": "admin.logentry",
+  },
+  {
+    "model": "servers.server",
     "pk": 6,
     "fields": {
-        "action_time": "2025-04-03T10:50:54.186Z",
-        "user": 1,
-        "content_type": 7,
-        "object_id": "1",
-        "object_repr": "aton",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"network interface\", \"object\": \"eno1 (dmz)\"}}]"
+      "name": "atum",
+      "domain": 1,
+      "primary_ip_address": null,
+      "network": 1,
+      "cpu": 16,
+      "memory": 64,
+      "disk": 1000,
+      "vendor": "Apple",
+      "model": "Studio M1",
+      "status": "ACT",
+      "os": 1,
+      "meta_data": null,
+      "extra_data": null,
+      "author": 1,
+      "groups": [],
+      "created": "2025-04-25T11:21:26.503398",
+      "modified": "2025-04-25T11:21:26.503398"
     }
-},
-{
-    "model": "admin.logentry",
+  },
+  {
+    "model": "servers.server",
     "pk": 7,
     "fields": {
-        "action_time": "2025-04-22T14:08:06.631Z",
-        "user": 1,
-        "content_type": 10,
-        "object_id": "2",
-        "object_repr": "kroesch.net",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
+      "name": "imhotep",
+      "domain": 1,
+      "primary_ip_address": "192.168.11.168",
+      "network": 1,
+      "cpu": 1,
+      "memory": null,
+      "disk": 8,
+      "vendor": "raspberry found.",
+      "model": "Pi 1",
+      "status": "ACT",
+      "os": 1,
+      "meta_data": null,
+      "extra_data": null,
+      "author": 1,
+      "groups": [],
+      "created": "2025-04-25T11:21:26.503398",
+      "modified": "2025-04-25T11:21:26.503398"
     }
-},
-{
-    "model": "admin.logentry",
+  },
+  {
+    "model": "servers.server",
     "pk": 8,
     "fields": {
-        "action_time": "2025-04-22T14:08:24.241Z",
-        "user": 1,
-        "content_type": 10,
-        "object_id": "3",
-        "object_repr": "kroesch.cloud",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
+      "name": "amenti",
+      "domain": 1,
+      "primary_ip_address": "192.168.100.1",
+      "network": 1,
+      "cpu": null,
+      "memory": null,
+      "disk": null,
+      "vendor": "OEM",
+      "model": null,
+      "status": "ACT",
+      "os": 1,
+      "meta_data": null,
+      "extra_data": null,
+      "author": 1,
+      "groups": [],
+      "created": "2025-04-25T11:21:26.503398",
+      "modified": "2025-04-25T11:21:26.503398"
     }
-},
-{
-    "model": "admin.logentry",
+  },
+  {
+    "model": "servers.server",
     "pk": 9,
     "fields": {
-        "action_time": "2025-04-22T14:09:15.697Z",
-        "user": 1,
-        "content_type": 11,
-        "object_id": "3",
-        "object_repr": "server",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
+      "name": "keket",
+      "domain": 1,
+      "primary_ip_address": "192.168.11.171",
+      "network": 1,
+      "cpu": null,
+      "memory": null,
+      "disk": null,
+      "vendor": "Zyxel",
+      "model": null,
+      "status": "ACT",
+      "os": 1,
+      "meta_data": null,
+      "extra_data": null,
+      "author": 1,
+      "groups": [],
+      "created": "2025-04-25T11:21:26.503398",
+      "modified": "2025-04-25T11:21:26.503398"
     }
-},
-{
-    "model": "admin.logentry",
+  },
+  {
+    "model": "servers.server",
     "pk": 10,
     "fields": {
-        "action_time": "2025-04-22T14:09:22.325Z",
-        "user": 1,
-        "content_type": 11,
-        "object_id": "4",
-        "object_repr": "iot",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
+      "name": "kek",
+      "domain": 1,
+      "primary_ip_address": "192.168.11.153",
+      "network": 1,
+      "cpu": null,
+      "memory": null,
+      "disk": null,
+      "vendor": "Microtik",
+      "model": null,
+      "status": "ACT",
+      "os": 1,
+      "meta_data": null,
+      "extra_data": null,
+      "author": 1,
+      "groups": [],
+      "created": "2025-04-25T11:21:26.503398",
+      "modified": "2025-04-25T11:21:26.503398"
     }
-},
-{
-    "model": "admin.logentry",
+  },
+  {
+    "model": "servers.server",
     "pk": 11,
     "fields": {
-        "action_time": "2025-04-22T14:09:33.801Z",
-        "user": 1,
-        "content_type": 11,
-        "object_id": "5",
-        "object_repr": "mobiöle",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
+      "name": "kematef",
+      "domain": 1,
+      "primary_ip_address": null,
+      "network": 1,
+      "cpu": null,
+      "memory": null,
+      "disk": null,
+      "vendor": "-",
+      "model": "-",
+      "status": "ACT",
+      "os": 1,
+      "meta_data": null,
+      "extra_data": null,
+      "author": 1,
+      "groups": [],
+      "created": "2025-04-25T11:21:26.503398",
+      "modified": "2025-04-25T11:21:26.503398"
     }
-},
-{
-    "model": "admin.logentry",
+  },
+  {
+    "model": "servers.server",
     "pk": 12,
     "fields": {
-        "action_time": "2025-04-22T14:09:43.664Z",
-        "user": 1,
-        "content_type": 11,
-        "object_id": "6",
-        "object_repr": "laptop",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
+      "name": "thot",
+      "domain": 1,
+      "primary_ip_address": "192.168.11.139",
+      "network": 1,
+      "cpu": null,
+      "memory": null,
+      "disk": null,
+      "vendor": "Synology",
+      "model": "Rackstation 2",
+      "status": "ACT",
+      "os": 1,
+      "meta_data": null,
+      "extra_data": null,
+      "author": 1,
+      "groups": [],
+      "created": "2025-04-25T11:21:26.503398",
+      "modified": "2025-04-25T11:21:26.503398"
     }
-},
-{
-    "model": "admin.logentry",
+  },
+  {
+    "model": "servers.server",
     "pk": 13,
     "fields": {
-        "action_time": "2025-04-22T14:10:19.326Z",
-        "user": 1,
-        "content_type": 8,
-        "object_id": "2",
-        "object_repr": "lan - 192.168.11.0/255.255.255.0",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
+      "name": "mandulis",
+      "domain": 1,
+      "primary_ip_address": "192.168.11.129",
+      "network": 1,
+      "cpu": null,
+      "memory": null,
+      "disk": null,
+      "vendor": "EET",
+      "model": null,
+      "status": "ACT",
+      "os": 1,
+      "meta_data": null,
+      "extra_data": null,
+      "author": 1,
+      "groups": [],
+      "created": "2025-04-25T11:21:26.503398",
+      "modified": "2025-04-25T11:21:26.503398"
     }
-},
-{
-    "model": "admin.logentry",
+  },
+  {
+    "model": "servers.server",
     "pk": 14,
     "fields": {
-        "action_time": "2025-04-22T14:11:02.410Z",
-        "user": 1,
-        "content_type": 7,
-        "object_id": "2",
-        "object_repr": "amun",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
+      "name": "cherti",
+      "domain": 1,
+      "primary_ip_address": null,
+      "network": 1,
+      "cpu": null,
+      "memory": null,
+      "disk": null,
+      "vendor": "OEM",
+      "model": null,
+      "status": "ACT",
+      "os": 1,
+      "meta_data": null,
+      "extra_data": null,
+      "author": 1,
+      "groups": [],
+      "created": "2025-04-25T11:21:26.503398",
+      "modified": "2025-04-25T11:21:26.503398"
     }
-},
-{
-    "model": "admin.logentry",
+  },
+  {
+    "model": "servers.server",
     "pk": 15,
     "fields": {
-        "action_time": "2025-04-22T14:11:39.075Z",
-        "user": 1,
-        "content_type": 10,
-        "object_id": "4",
-        "object_repr": "kroesch.lan",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
+      "name": "penpen",
+      "domain": 1,
+      "primary_ip_address": null,
+      "network": 1,
+      "cpu": null,
+      "memory": null,
+      "disk": null,
+      "vendor": "OEM",
+      "model": null,
+      "status": "ACT",
+      "os": 1,
+      "meta_data": null,
+      "extra_data": null,
+      "author": 1,
+      "groups": [],
+      "created": "2025-04-25T11:21:26.503398",
+      "modified": "2025-04-25T11:21:26.503398"
     }
-},
-{
-    "model": "admin.logentry",
+  },
+  {
+    "model": "servers.server",
     "pk": 16,
     "fields": {
-        "action_time": "2025-04-22T14:11:53.873Z",
-        "user": 1,
-        "content_type": 11,
-        "object_id": "5",
-        "object_repr": "mobile",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+      "name": "maat",
+      "domain": 1,
+      "primary_ip_address": "192.168.11.108",
+      "network": 1,
+      "cpu": 2,
+      "memory": 8,
+      "disk": 128,
+      "vendor": "Intel",
+      "model": "NUC Celeron",
+      "status": "ACT",
+      "os": 1,
+      "meta_data": null,
+      "extra_data": null,
+      "author": 1,
+      "groups": [],
+      "created": "2025-04-25T11:21:26.503398",
+      "modified": "2025-04-25T11:21:26.503398"
     }
-},
-{
-    "model": "admin.logentry",
+  },
+  {
+    "model": "servers.server",
     "pk": 17,
     "fields": {
-        "action_time": "2025-04-22T14:12:09.188Z",
-        "user": 1,
-        "content_type": 7,
-        "object_id": "2",
-        "object_repr": "amun",
-        "action_flag": 2,
-        "change_message": "[{\"added\": {\"name\": \"network interface\", \"object\": \" (lan)\"}}]"
+      "name": "serapis",
+      "domain": 1,
+      "primary_ip_address": "192.168.11.137",
+      "network": 1,
+      "cpu": 8,
+      "memory": 32,
+      "disk": 1000,
+      "vendor": "Intel",
+      "model": "NUC i7",
+      "status": "ACT",
+      "os": 1,
+      "meta_data": null,
+      "extra_data": null,
+      "author": 1,
+      "groups": [],
+      "created": "2025-04-25T11:21:26.503398",
+      "modified": "2025-04-25T11:21:26.503398"
     }
-},
-{
-    "model": "admin.logentry",
+  },
+  {
+    "model": "servers.server",
     "pk": 18,
     "fields": {
-        "action_time": "2025-04-22T14:12:23.680Z",
-        "user": 1,
-        "content_type": 7,
-        "object_id": "2",
-        "object_repr": "amun",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"name\": \"network interface\", \"object\": \" (lan)\", \"fields\": [\"Mac\"]}}]"
+      "name": "ptah",
+      "domain": 1,
+      "primary_ip_address": null,
+      "network": 1,
+      "cpu": 4,
+      "memory": 16,
+      "disk": 512,
+      "vendor": "Intel",
+      "model": "NUC i5",
+      "status": "ACT",
+      "os": 1,
+      "meta_data": null,
+      "extra_data": null,
+      "author": 1,
+      "groups": [],
+      "created": "2025-04-25T11:21:26.503398",
+      "modified": "2025-04-25T11:21:26.503398"
     }
-},
-{
-    "model": "auth.permission",
-    "pk": 1,
-    "fields": {
-        "name": "Can add log entry",
-        "content_type": 1,
-        "codename": "add_logentry"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 2,
-    "fields": {
-        "name": "Can change log entry",
-        "content_type": 1,
-        "codename": "change_logentry"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 3,
-    "fields": {
-        "name": "Can delete log entry",
-        "content_type": 1,
-        "codename": "delete_logentry"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 4,
-    "fields": {
-        "name": "Can view log entry",
-        "content_type": 1,
-        "codename": "view_logentry"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 5,
-    "fields": {
-        "name": "Can add permission",
-        "content_type": 2,
-        "codename": "add_permission"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 6,
-    "fields": {
-        "name": "Can change permission",
-        "content_type": 2,
-        "codename": "change_permission"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 7,
-    "fields": {
-        "name": "Can delete permission",
-        "content_type": 2,
-        "codename": "delete_permission"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 8,
-    "fields": {
-        "name": "Can view permission",
-        "content_type": 2,
-        "codename": "view_permission"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 9,
-    "fields": {
-        "name": "Can add group",
-        "content_type": 3,
-        "codename": "add_group"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 10,
-    "fields": {
-        "name": "Can change group",
-        "content_type": 3,
-        "codename": "change_group"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 11,
-    "fields": {
-        "name": "Can delete group",
-        "content_type": 3,
-        "codename": "delete_group"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 12,
-    "fields": {
-        "name": "Can view group",
-        "content_type": 3,
-        "codename": "view_group"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 13,
-    "fields": {
-        "name": "Can add user",
-        "content_type": 4,
-        "codename": "add_user"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 14,
-    "fields": {
-        "name": "Can change user",
-        "content_type": 4,
-        "codename": "change_user"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 15,
-    "fields": {
-        "name": "Can delete user",
-        "content_type": 4,
-        "codename": "delete_user"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 16,
-    "fields": {
-        "name": "Can view user",
-        "content_type": 4,
-        "codename": "view_user"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 17,
-    "fields": {
-        "name": "Can add content type",
-        "content_type": 5,
-        "codename": "add_contenttype"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 18,
-    "fields": {
-        "name": "Can change content type",
-        "content_type": 5,
-        "codename": "change_contenttype"
-    }
-},
-{
-    "model": "auth.permission",
+  },
+  {
+    "model": "servers.server",
     "pk": 19,
     "fields": {
-        "name": "Can delete content type",
-        "content_type": 5,
-        "codename": "delete_contenttype"
+      "name": "tenem",
+      "domain": 1,
+      "primary_ip_address": "192.168.1.11",
+      "network": 1,
+      "cpu": null,
+      "memory": null,
+      "disk": null,
+      "vendor": "OEM",
+      "model": null,
+      "status": "ACT",
+      "os": 1,
+      "meta_data": null,
+      "extra_data": null,
+      "author": 1,
+      "groups": [],
+      "created": "2025-04-25T11:21:26.503398",
+      "modified": "2025-04-25T11:21:26.503398"
     }
-},
-{
-    "model": "auth.permission",
+  },
+  {
+    "model": "servers.server",
     "pk": 20,
     "fields": {
-        "name": "Can view content type",
-        "content_type": 5,
-        "codename": "view_contenttype"
+      "name": "unut",
+      "domain": 1,
+      "primary_ip_address": "192.168.11.196",
+      "network": 1,
+      "cpu": null,
+      "memory": null,
+      "disk": null,
+      "vendor": "Orangepi",
+      "model": "Pi 4 LTS",
+      "status": "ACT",
+      "os": 1,
+      "meta_data": null,
+      "extra_data": null,
+      "author": 1,
+      "groups": [],
+      "created": "2025-04-25T11:21:26.503398",
+      "modified": "2025-04-25T11:21:26.503398"
     }
-},
-{
-    "model": "auth.permission",
+  },
+  {
+    "model": "servers.server",
     "pk": 21,
     "fields": {
-        "name": "Can add session",
-        "content_type": 6,
-        "codename": "add_session"
+      "name": "wosret",
+      "domain": 1,
+      "primary_ip_address": "192.168.11.142",
+      "network": 1,
+      "cpu": 4,
+      "memory": 16,
+      "disk": 1000,
+      "vendor": "friendlyelec",
+      "model": "CM3588 NAS",
+      "status": "ACT",
+      "os": 1,
+      "meta_data": null,
+      "extra_data": null,
+      "author": 1,
+      "groups": [],
+      "created": "2025-04-25T11:21:26.503398",
+      "modified": "2025-04-25T11:21:26.503398"
     }
-},
-{
-    "model": "auth.permission",
+  },
+  {
+    "model": "servers.server",
     "pk": 22,
     "fields": {
-        "name": "Can change session",
-        "content_type": 6,
-        "codename": "change_session"
+      "name": "weneg",
+      "domain": 1,
+      "primary_ip_address": null,
+      "network": 1,
+      "cpu": 4,
+      "memory": 8,
+      "disk": 64,
+      "vendor": "friendlyelec",
+      "model": null,
+      "status": "ACT",
+      "os": 1,
+      "meta_data": null,
+      "extra_data": null,
+      "author": 1,
+      "groups": [],
+      "created": "2025-04-25T11:21:26.503398",
+      "modified": "2025-04-25T11:21:26.503398"
     }
-},
-{
-    "model": "auth.permission",
+  },
+  {
+    "model": "servers.server",
     "pk": 23,
     "fields": {
-        "name": "Can delete session",
-        "content_type": 6,
-        "codename": "delete_session"
+      "name": "nehebkau",
+      "domain": 1,
+      "primary_ip_address": "192.168.11.140",
+      "network": 1,
+      "cpu": 1,
+      "memory": 4,
+      "disk": 1000,
+      "vendor": "OEM",
+      "model": null,
+      "status": "ACT",
+      "os": 1,
+      "meta_data": null,
+      "extra_data": null,
+      "author": 1,
+      "groups": [],
+      "created": "2025-04-25T11:21:26.503398",
+      "modified": "2025-04-25T11:21:26.503398"
     }
-},
-{
-    "model": "auth.permission",
+  },
+  {
+    "model": "servers.server",
     "pk": 24,
     "fields": {
-        "name": "Can view session",
-        "content_type": 6,
-        "codename": "view_session"
+      "name": "pachet",
+      "domain": 1,
+      "primary_ip_address": null,
+      "network": 1,
+      "cpu": null,
+      "memory": null,
+      "disk": null,
+      "vendor": "banullapi",
+      "model": null,
+      "status": "ACT",
+      "os": 1,
+      "meta_data": null,
+      "extra_data": null,
+      "author": 1,
+      "groups": [],
+      "created": "2025-04-25T11:21:26.503398",
+      "modified": "2025-04-25T11:21:26.503398"
     }
-},
-{
-    "model": "auth.permission",
+  },
+  {
+    "model": "servers.server",
     "pk": 25,
     "fields": {
-        "name": "Can add server",
-        "content_type": 7,
-        "codename": "add_server"
+      "name": "basti",
+      "domain": 1,
+      "primary_ip_address": "135.181.148.124",
+      "network": 1,
+      "cpu": 2,
+      "memory": 2,
+      "disk": 128,
+      "vendor": "Hetzner ",
+      "model": null,
+      "status": "ACT",
+      "os": 1,
+      "meta_data": null,
+      "extra_data": null,
+      "author": 1,
+      "groups": [],
+      "created": "2025-04-25T11:21:26.503398",
+      "modified": "2025-04-25T11:21:26.503398"
     }
-},
-{
-    "model": "auth.permission",
+  },
+  {
+    "model": "servers.server",
     "pk": 26,
     "fields": {
-        "name": "Can change server",
-        "content_type": 7,
-        "codename": "change_server"
+      "name": "chensit",
+      "domain": 1,
+      "primary_ip_address": "192.168.11.111",
+      "network": 1,
+      "cpu": null,
+      "memory": null,
+      "disk": null,
+      "vendor": "Alpha-Innotec",
+      "model": null,
+      "status": "ACT",
+      "os": 1,
+      "meta_data": null,
+      "extra_data": null,
+      "author": 1,
+      "groups": [],
+      "created": "2025-04-25T11:21:26.503398",
+      "modified": "2025-04-25T11:21:26.503398"
     }
-},
-{
-    "model": "auth.permission",
+  },
+  {
+    "model": "servers.server",
     "pk": 27,
     "fields": {
-        "name": "Can delete server",
-        "content_type": 7,
-        "codename": "delete_server"
+      "name": "aha",
+      "domain": 1,
+      "primary_ip_address": null,
+      "network": 1,
+      "cpu": 2,
+      "memory": 1,
+      "disk": 32,
+      "vendor": "raspberry foundation",
+      "model": "Pi 3 B+",
+      "status": "ACT",
+      "os": 1,
+      "meta_data": null,
+      "extra_data": null,
+      "author": 1,
+      "groups": [],
+      "created": "2025-04-25T11:21:26.503398",
+      "modified": "2025-04-25T11:21:26.503398"
     }
-},
-{
-    "model": "auth.permission",
+  },
+  {
+    "model": "servers.server",
     "pk": 28,
     "fields": {
-        "name": "Can view server",
-        "content_type": 7,
-        "codename": "view_server"
+      "name": "amaa",
+      "domain": 1,
+      "primary_ip_address": null,
+      "network": 1,
+      "cpu": 2,
+      "memory": 1,
+      "disk": 32,
+      "vendor": "raspberry foundation",
+      "model": "Pi 3 B+",
+      "status": "ACT",
+      "os": 1,
+      "meta_data": null,
+      "extra_data": null,
+      "author": 1,
+      "groups": [],
+      "created": "2025-04-25T11:21:26.503398",
+      "modified": "2025-04-25T11:21:26.503398"
     }
-},
-{
-    "model": "auth.permission",
+  },
+  {
+    "model": "servers.server",
     "pk": 29,
     "fields": {
-        "name": "Can add network",
-        "content_type": 8,
-        "codename": "add_network"
+      "name": "temet",
+      "domain": 1,
+      "primary_ip_address": "192.168.11.213",
+      "network": 1,
+      "cpu": 8,
+      "memory": 8,
+      "disk": 238,
+      "vendor": "Lenovo",
+      "model": "ThinkCentre",
+      "status": "ACT",
+      "os": 1,
+      "meta_data": null,
+      "extra_data": null,
+      "author": 1,
+      "groups": [],
+      "created": "2025-04-25T11:21:26.503398",
+      "modified": "2025-04-25T11:21:26.503398"
     }
-},
-{
-    "model": "auth.permission",
-    "pk": 30,
-    "fields": {
-        "name": "Can change network",
-        "content_type": 8,
-        "codename": "change_network"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 31,
-    "fields": {
-        "name": "Can delete network",
-        "content_type": 8,
-        "codename": "delete_network"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 32,
-    "fields": {
-        "name": "Can view network",
-        "content_type": 8,
-        "codename": "view_network"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 33,
-    "fields": {
-        "name": "Can add operating system",
-        "content_type": 9,
-        "codename": "add_operatingsystem"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 34,
-    "fields": {
-        "name": "Can change operating system",
-        "content_type": 9,
-        "codename": "change_operatingsystem"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 35,
-    "fields": {
-        "name": "Can delete operating system",
-        "content_type": 9,
-        "codename": "delete_operatingsystem"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 36,
-    "fields": {
-        "name": "Can view operating system",
-        "content_type": 9,
-        "codename": "view_operatingsystem"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 37,
-    "fields": {
-        "name": "Can add domain",
-        "content_type": 10,
-        "codename": "add_domain"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 38,
-    "fields": {
-        "name": "Can change domain",
-        "content_type": 10,
-        "codename": "change_domain"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 39,
-    "fields": {
-        "name": "Can delete domain",
-        "content_type": 10,
-        "codename": "delete_domain"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 40,
-    "fields": {
-        "name": "Can view domain",
-        "content_type": 10,
-        "codename": "view_domain"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 41,
-    "fields": {
-        "name": "Can add group",
-        "content_type": 11,
-        "codename": "add_group"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 42,
-    "fields": {
-        "name": "Can change group",
-        "content_type": 11,
-        "codename": "change_group"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 43,
-    "fields": {
-        "name": "Can delete group",
-        "content_type": 11,
-        "codename": "delete_group"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 44,
-    "fields": {
-        "name": "Can view group",
-        "content_type": 11,
-        "codename": "view_group"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 45,
-    "fields": {
-        "name": "Can add network interface",
-        "content_type": 12,
-        "codename": "add_networkinterface"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 46,
-    "fields": {
-        "name": "Can change network interface",
-        "content_type": 12,
-        "codename": "change_networkinterface"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 47,
-    "fields": {
-        "name": "Can delete network interface",
-        "content_type": 12,
-        "codename": "delete_networkinterface"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 48,
-    "fields": {
-        "name": "Can view network interface",
-        "content_type": 12,
-        "codename": "view_networkinterface"
-    }
-},
-{
-    "model": "auth.user",
+  },
+  {
+    "model": "servers.networkinterface",
     "pk": 1,
     "fields": {
-        "password": "pbkdf2_sha256$600000$KCBYPEfYGnUMbUZPlZVJX1$a09fngOphqy/m4D9OloDLyjZ3DgYa+5y2d5bbvIOsxM=",
-        "last_login": "2025-04-22T14:06:19.813Z",
-        "is_superuser": true,
-        "username": "karsten",
-        "first_name": "",
-        "last_name": "",
-        "email": "karsten.kroesch@ag.ch",
-        "is_staff": true,
-        "is_active": true,
-        "date_joined": "2025-04-03T10:37:43.037Z",
-        "groups": [],
-        "user_permissions": []
+      "server": 1,
+      "ipv4": "192.168.100.17",
+      "mac": "10:ff:e0:4e:43:a1",
+      "vendor": "Kroesch.NET",
+      "type": "mgm",
+      "name": "en0"
     }
-},
-{
-    "model": "contenttypes.contenttype",
-    "pk": 1,
-    "fields": {
-        "app_label": "admin",
-        "model": "logentry"
-    }
-},
-{
-    "model": "contenttypes.contenttype",
+  },
+  {
+    "model": "servers.networkinterface",
     "pk": 2,
     "fields": {
-        "app_label": "auth",
-        "model": "permission"
+      "server": 2,
+      "ipv4": null,
+      "mac": "c4:c6:e6:a2:26:11",
+      "vendor": "Lenovo",
+      "type": "mgm",
+      "name": "en0"
     }
-},
-{
-    "model": "contenttypes.contenttype",
+  },
+  {
+    "model": "servers.networkinterface",
     "pk": 3,
     "fields": {
-        "app_label": "auth",
-        "model": "group"
+      "server": 3,
+      "ipv4": "192.168.100.15",
+      "mac": "b4:7a:f1:a6:4e:22",
+      "vendor": "HPE",
+      "type": "mgm",
+      "name": "eno3"
     }
-},
-{
-    "model": "contenttypes.contenttype",
+  },
+  {
+    "model": "servers.networkinterface",
     "pk": 4,
     "fields": {
-        "app_label": "auth",
-        "model": "user"
+      "server": 4,
+      "ipv4": "192.168.11.110",
+      "mac": "20:F8:3B:00:E8:18",
+      "vendor": "homeassistant",
+      "type": "mgm",
+      "name": "en0"
     }
-},
-{
-    "model": "contenttypes.contenttype",
+  },
+  {
+    "model": "servers.networkinterface",
     "pk": 5,
     "fields": {
-        "app_label": "contenttypes",
-        "model": "contenttype"
+      "server": 5,
+      "ipv4": "192.168.11.151",
+      "mac": "D8:3A:DD:E6:17:04",
+      "vendor": "raspberry found.",
+      "type": "mgm",
+      "name": "en0"
     }
-},
-{
-    "model": "contenttypes.contenttype",
+  },
+  {
+    "model": "servers.networkinterface",
     "pk": 6,
     "fields": {
-        "app_label": "sessions",
-        "model": "session"
+      "server": 6,
+      "ipv4": null,
+      "mac": "00:00:00:00:00",
+      "vendor": "Apple",
+      "type": "mgm",
+      "name": "en0"
     }
-},
-{
-    "model": "contenttypes.contenttype",
+  },
+  {
+    "model": "servers.networkinterface",
     "pk": 7,
     "fields": {
-        "app_label": "servers",
-        "model": "server"
+      "server": 7,
+      "ipv4": "192.168.11.168",
+      "mac": "B8:27:EB:9C:04:1C",
+      "vendor": "raspberry found.",
+      "type": "mgm",
+      "name": "en0"
     }
-},
-{
-    "model": "contenttypes.contenttype",
+  },
+  {
+    "model": "servers.networkinterface",
     "pk": 8,
     "fields": {
-        "app_label": "servers",
-        "model": "network"
+      "server": 8,
+      "ipv4": "192.168.100.1",
+      "mac": "00:00:00:00:00",
+      "vendor": "OEM",
+      "type": "mgm",
+      "name": "lan"
     }
-},
-{
-    "model": "contenttypes.contenttype",
+  },
+  {
+    "model": "servers.networkinterface",
     "pk": 9,
     "fields": {
-        "app_label": "servers",
-        "model": "operatingsystem"
+      "server": 9,
+      "ipv4": "192.168.11.171",
+      "mac": "FC:F5:28:EE:BA:66",
+      "vendor": "Zyxel",
+      "type": "mgm",
+      "name": "en0"
     }
-},
-{
-    "model": "contenttypes.contenttype",
+  },
+  {
+    "model": "servers.networkinterface",
     "pk": 10,
     "fields": {
-        "app_label": "servers",
-        "model": "domain"
+      "server": 10,
+      "ipv4": "192.168.11.153",
+      "mac": "78:9A:18:7C:6E:CE",
+      "vendor": "Microtik",
+      "type": "mgm",
+      "name": "en0"
     }
-},
-{
-    "model": "contenttypes.contenttype",
+  },
+  {
+    "model": "servers.networkinterface",
     "pk": 11,
     "fields": {
-        "app_label": "servers",
-        "model": "group"
+      "server": 11,
+      "ipv4": null,
+      "mac": "00:00:00:00:00",
+      "vendor": "OEM",
+      "type": "mgm",
+      "name": "en0"
     }
-},
-{
-    "model": "contenttypes.contenttype",
+  },
+  {
+    "model": "servers.networkinterface",
     "pk": 12,
     "fields": {
-        "app_label": "servers",
-        "model": "networkinterface"
+      "server": 12,
+      "ipv4": "192.168.11.139",
+      "mac": "00:11:32:77:CA:DD",
+      "vendor": "Synology",
+      "type": "mgm",
+      "name": "en0"
     }
-},
-{
-    "model": "sessions.session",
-    "pk": "fylt7j1b39fgsabdz6sj8kyn3hx7fmqn",
+  },
+  {
+    "model": "servers.networkinterface",
+    "pk": 13,
     "fields": {
-        "session_data": ".eJxVjDEOgzAMAP_iuYriQAJh7N43RHZsGtoKJAJT1b9XSAztene6NyTat5L2qmuaBAZAuPwypvzU-RDyoPm-mLzM2zqxORJz2mpui-jrerZ_g0K1wACees4oiDKycJCxVXZNjLln7FRtQ2o76QKKC941iBiijy15EbVh9PD5AgXmOCo:1u0I1e:eOTCHBBjDXDWwRBzrb0kA1E6NAs_GTUzKjcJTE86s84",
-        "expire_date": "2025-04-17T10:42:22.035Z"
+      "server": 13,
+      "ipv4": "192.168.11.129",
+      "mac": "D8:3A:DD:AA:C5:4D",
+      "vendor": "EET",
+      "type": "mgm",
+      "name": "en0"
     }
-},
-{
-    "model": "sessions.session",
-    "pk": "s6hy5uness1vfnoszlrundiaahxxgtuw",
+  },
+  {
+    "model": "servers.networkinterface",
+    "pk": 14,
     "fields": {
-        "session_data": ".eJxVjDEOgzAMAP_iuYriQAJh7N43RHZsGtoKJAJT1b9XSAztene6NyTat5L2qmuaBAZAuPwypvzU-RDyoPm-mLzM2zqxORJz2mpui-jrerZ_g0K1wACees4oiDKycJCxVXZNjLln7FRtQ2o76QKKC941iBiijy15EbVh9PD5AgXmOCo:1u7EGR:i1qE5-Ic3c57sQr63IxMITvC68QRqMD_0CBu-62EOyg",
-        "expire_date": "2025-05-06T14:06:19.820Z"
+      "server": 14,
+      "ipv4": null,
+      "mac": "00:00:00:00:00",
+      "vendor": "OEM",
+      "type": "mgm",
+      "name": "en0"
     }
-},
-{
+  },
+  {
+    "model": "servers.networkinterface",
+    "pk": 15,
+    "fields": {
+      "server": 15,
+      "ipv4": null,
+      "mac": "50:23:A2:B5:73:36",
+      "vendor": "OEM",
+      "type": "mgm",
+      "name": "en0"
+    }
+  },
+  {
+    "model": "servers.networkinterface",
+    "pk": 16,
+    "fields": {
+      "server": 16,
+      "ipv4": "192.168.11.108",
+      "mac": "EC:A8:6B:FA:41:DE",
+      "vendor": "Intel",
+      "type": "mgm",
+      "name": "en0"
+    }
+  },
+  {
+    "model": "servers.networkinterface",
+    "pk": 17,
+    "fields": {
+      "server": 17,
+      "ipv4": "192.168.11.137",
+      "mac": "94:C6:91:A5:62:2D",
+      "vendor": "Intel",
+      "type": "mgm",
+      "name": "en0"
+    }
+  },
+  {
+    "model": "servers.networkinterface",
+    "pk": 19,
+    "fields": {
+      "server": 19,
+      "ipv4": "192.168.1.11",
+      "mac": "00:00:00:00:00",
+      "vendor": "OEM",
+      "type": "mgm",
+      "name": "en0"
+    }
+  },
+  {
+    "model": "servers.networkinterface",
+    "pk": 20,
+    "fields": {
+      "server": 20,
+      "ipv4": "192.168.11.196",
+      "mac": "CA:FD:7E:1C:21:1E",
+      "vendor": "Orangepi",
+      "type": "mgm",
+      "name": "en0"
+    }
+  },
+  {
+    "model": "servers.networkinterface",
+    "pk": 21,
+    "fields": {
+      "server": 21,
+      "ipv4": "192.168.11.142",
+      "mac": "00:00:00:00:00",
+      "vendor": "friendlyelec",
+      "type": "mgm",
+      "name": "en0"
+    }
+  },
+  {
+    "model": "servers.networkinterface",
+    "pk": 23,
+    "fields": {
+      "server": 23,
+      "ipv4": "192.168.11.140",
+      "mac": "20:23:51:F1:0C:0D",
+      "vendor": "OEM",
+      "type": "mgm",
+      "name": "en0"
+    }
+  },
+  {
+    "model": "servers.networkinterface",
+    "pk": 24,
+    "fields": {
+      "server": 24,
+      "ipv4": null,
+      "mac": "00:00:00:00:00",
+      "vendor": "banullapi",
+      "type": "mgm",
+      "name": "en0"
+    }
+  },
+  {
+    "model": "servers.networkinterface",
+    "pk": 25,
+    "fields": {
+      "server": 25,
+      "ipv4": "135.181.148.124",
+      "mac": "00:00:00:00:00",
+      "vendor": "Hetzner ",
+      "type": "mgm",
+      "name": "en0"
+    }
+  },
+  {
+    "model": "servers.networkinterface",
+    "pk": 26,
+    "fields": {
+      "server": 26,
+      "ipv4": "192.168.11.111",
+      "mac": "40:EC:F8:06:88:6F",
+      "vendor": "Alpha-Innotec",
+      "type": "mgm",
+      "name": "en0"
+    }
+  },
+  {
+    "model": "servers.networkinterface",
+    "pk": 27,
+    "fields": {
+      "server": 27,
+      "ipv4": null,
+      "mac": "00:00:00:00:00",
+      "vendor": "raspberry foundation",
+      "type": "mgm",
+      "name": "en0"
+    }
+  },
+  {
+    "model": "servers.networkinterface",
+    "pk": 28,
+    "fields": {
+      "server": 28,
+      "ipv4": null,
+      "mac": "00:00:00:00:00",
+      "vendor": "raspberry foundation",
+      "type": "mgm",
+      "name": "en0"
+    }
+  },
+  {
+    "model": "servers.networkinterface",
+    "pk": 29,
+    "fields": {
+      "server": 29,
+      "ipv4": "192.168.11.213",
+      "mac": "00:00:00:00:00",
+      "vendor": "Lenovo",
+      "type": "mgm",
+      "name": "en0"
+    }
+  },
+  {
+    "model": "servers.network",
+    "pk": 1,
+    "fields": {
+      "vlan_name": "lan",
+      "ipv4_address": "192.168.100.0",
+      "netmask": "255.255.255.0"
+    }
+  },
+  {
     "model": "servers.operatingsystem",
     "pk": 1,
     "fields": {
-        "name": "Fedora",
-        "major_version": 42,
-        "minor_version": 0,
-        "patch_level": 4
+      "name": "Linux",
+      "major_version": 6,
+      "minor_version": 14,
+      "patch_level": 1
     }
-},
-{
-    "model": "servers.network",
-    "pk": 1,
-    "fields": {
-        "vlan_name": "dmz",
-        "ipv4_address": "192.168.100.0",
-        "netmask": "255.255.255.0"
-    }
-},
-{
-    "model": "servers.network",
-    "pk": 2,
-    "fields": {
-        "vlan_name": "lan",
-        "ipv4_address": "192.168.11.0",
-        "netmask": "255.255.255.0"
-    }
-},
-{
+  },
+  {
     "model": "servers.domain",
     "pk": 1,
     "fields": {
-        "name": "mgm.kube",
-        "ns1": "ns1.kube",
-        "ns2": "ns2.kube"
+      "name": "kroesch.lan",
+      "ns1": "ns1.kroesch.lan",
+      "ns2": "ns2.kroesch.lan"
     }
-},
-{
-    "model": "servers.domain",
-    "pk": 2,
-    "fields": {
-        "name": "kroesch.net",
-        "ns1": "darwin.ns.cloudflare.com",
-        "ns2": "rachel.ns.cloudflare.com"
-    }
-},
-{
-    "model": "servers.domain",
-    "pk": 3,
-    "fields": {
-        "name": "kroesch.cloud",
-        "ns1": "darwin.ns.cloudflare.com",
-        "ns2": "rachel.ns.cloudflare.com"
-    }
-},
-{
-    "model": "servers.domain",
-    "pk": 4,
-    "fields": {
-        "name": "kroesch.lan",
-        "ns1": "ns1.kroesch.lan",
-        "ns2": "ns2.kroesch.lan"
-    }
-},
-{
-    "model": "servers.group",
-    "pk": 1,
-    "fields": {
-        "name": "appliance"
-    }
-},
-{
-    "model": "servers.group",
-    "pk": 2,
-    "fields": {
-        "name": "worker"
-    }
-},
-{
-    "model": "servers.group",
-    "pk": 3,
-    "fields": {
-        "name": "server"
-    }
-},
-{
-    "model": "servers.group",
-    "pk": 4,
-    "fields": {
-        "name": "iot"
-    }
-},
-{
-    "model": "servers.group",
-    "pk": 5,
-    "fields": {
-        "name": "mobile"
-    }
-},
-{
-    "model": "servers.group",
-    "pk": 6,
-    "fields": {
-        "name": "laptop"
-    }
-},
-{
-    "model": "servers.server",
-    "pk": 1,
-    "fields": {
-        "name": "aton",
-        "domain": 1,
-        "primary_ip_address": "192.168.100.2",
-        "network": 1,
-        "cpu": 2,
-        "memory": 1024,
-        "disk": 32,
-        "status": "PEN",
-        "os": 1,
-        "groups": [
-            2
-        ]
-    }
-},
-{
-    "model": "servers.server",
-    "pk": 2,
-    "fields": {
-        "name": "amun",
-        "domain": null,
-        "primary_ip_address": "192.168.11.2",
-        "network": 2,
-        "cpu": 8,
-        "memory": 32,
-        "disk": 1000,
-        "status": "ACT",
-        "os": 1,
-        "groups": [
-            6
-        ]
-    }
-},
-{
-    "model": "servers.networkinterface",
-    "pk": 1,
-    "fields": {
-        "server": 1,
-        "ipv4": "192.168.100.2",
-        "mac": "aa:bc:d1:e5:f6",
-        "vendor": "Sistrum AG",
-        "type": "dmz",
-        "name": "eno1"
-    }
-},
-{
-    "model": "servers.networkinterface",
-    "pk": 2,
-    "fields": {
-        "server": 2,
-        "ipv4": null,
-        "mac": "aa:bc:d1:e5:f6",
-        "vendor": "Sistrum AG",
-        "type": "lan",
-        "name": ""
-    }
-}
+  }
 ]
